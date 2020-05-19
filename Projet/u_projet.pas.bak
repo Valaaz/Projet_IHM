@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, Menus,
-  ExtCtrls, u_feuille_style;
+  ExtCtrls, StdCtrls;
 
 type
 
@@ -23,6 +23,7 @@ type
     item_archive: TMenuItem;
     item_archN1: TMenuItem;
     item_archN2: TMenuItem;
+    lbl_titre: TLabel;
     mnu_main: TMainMenu;
     pnl_selection: TPanel;
     pnl_travail: TPanel;
