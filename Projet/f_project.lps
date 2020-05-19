@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="f_project.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="20"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="u_projet.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="f_projet"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="54"/>
+        <CursorPos X="42" Y="77"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="u_feuille_style.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="71"/>
+        <CursorPos X="3" Y="16"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="26" HistoryIndex="25">
+      <Position1>
+        <Filename Value="u_projet.pas"/>
+      </Position1>
+      <Position2>
+        <Filename Value="u_projet.pas"/>
+        <Caret Line="32" TopLine="14"/>
+      </Position2>
+      <Position3>
+        <Filename Value="u_projet.pas"/>
+        <Caret Line="16" Column="25" TopLine="6"/>
+      </Position3>
+      <Position4>
+        <Filename Value="u_projet.pas"/>
+        <Caret Line="17" Column="25" TopLine="6"/>
+      </Position4>
+      <Position5>
+        <Filename Value="u_projet.pas"/>
+        <Caret Line="18" Column="25" TopLine="6"/>
+      </Position5>
+      <Position6>
+        <Filename Value="u_projet.pas"/>
+        <Caret Line="19" Column="25" TopLine="6"/>
+      </Position6>
+      <Position7>
+        <Filename Value="u_projet.pas"/>
+        <Caret Line="20" Column="25" TopLine="6"/>
+      </Position7>
+      <Position8>
+        <Filename Value="u_projet.pas"/>
+        <Caret Line="21" Column="25" TopLine="6"/>
+      </Position8>
+      <Position9>
+        <Filename Value="u_projet.pas"/>
+        <Caret Line="22" Column="25" TopLine="6"/>
+      </Position9>
+      <Position10>
+        <Filename Value="u_projet.pas"/>
+        <Caret Line="23" Column="25" TopLine="6"/>
+      </Position10>
+      <Position11>
+        <Filename Value="u_projet.pas"/>
+        <Caret Line="24" Column="25" TopLine="6"/>
+      </Position11>
+      <Position12>
+        <Filename Value="u_projet.pas"/>
+        <Caret Line="25" Column="25" TopLine="6"/>
+      </Position12>
+      <Position13>
+        <Filename Value="u_projet.pas"/>
+        <Caret Line="27" Column="24" TopLine="27"/>
+      </Position13>
+      <Position14>
+        <Filename Value="u_projet.pas"/>
+        <Caret Line="28" Column="24" TopLine="28"/>
+      </Position14>
+      <Position15>
+        <Filename Value="u_projet.pas"/>
+        <Caret Line="29" Column="24" TopLine="29"/>
+      </Position15>
+      <Position16>
+        <Filename Value="u_projet.pas"/>
+        <Caret Line="30" Column="24" TopLine="30"/>
+      </Position16>
+      <Position17>
+        <Filename Value="u_projet.pas"/>
+        <Caret Line="29" Column="24" TopLine="29"/>
+      </Position17>
+      <Position18>
+        <Filename Value="u_projet.pas"/>
+        <Caret Line="31" Column="50" TopLine="31"/>
+      </Position18>
+      <Position19>
+        <Filename Value="u_projet.pas"/>
+        <Caret Line="147" Column="6" TopLine="134"/>
+      </Position19>
+      <Position20>
+        <Filename Value="u_projet.pas"/>
+        <Caret Line="38" Column="11" TopLine="38"/>
+      </Position20>
+      <Position21>
+        <Filename Value="u_projet.pas"/>
+        <Caret Line="46" Column="14"/>
+      </Position21>
+      <Position22>
+        <Filename Value="u_projet.pas"/>
+        <Caret Line="12" TopLine="12"/>
+      </Position22>
+      <Position23>
+        <Filename Value="u_projet.pas"/>
+        <Caret Line="9" Column="12"/>
+      </Position23>
+      <Position24>
+        <Filename Value="u_projet.pas"/>
+        <Caret Line="13" Column="13"/>
+      </Position24>
+      <Position25>
+        <Filename Value="u_projet.pas"/>
+        <Caret Line="38" TopLine="13"/>
+      </Position25>
+      <Position26>
+        <Filename Value="u_projet.pas"/>
+        <Caret Line="50" Column="20" TopLine="54"/>
+      </Position26>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
