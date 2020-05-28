@@ -32,6 +32,7 @@ type
     procedure FormShow(Sender: TObject);
     procedure item_quitterClick(Sender: TObject);
     procedure mnu_item_Click(Sender : TObject);
+    procedure choix_item_liste;
   private
     { private declarations }
   public
@@ -46,7 +47,21 @@ implementation
 {$R *.lfm}
 
 { Tf_projet }
-uses u_feuille_style;
+uses u_feuille_style, u_select_inscrit;
+
+procedure Tf_projet.item_quitterClick(Sender: TObject);
+begin
+  Close;
+end;
+
+procedure Tf_projet.choix_item_liste;
+begin
+      f_select_inscrit.borderstyle := bsNone;
+      f_select_inscrit.parent          := pnl_selection;
+      f_select_inscrit.align            := alClient;
+      f_select_inscrit.init;
+      f_select_inscrit.show;
+end;
 
 procedure Tf_projet.mnu_item_Click(Sender: TObject);
 var
@@ -60,12 +75,8 @@ begin
          pnl_ariane.caption := ' >' + item.caption +pnl_ariane.Caption;
          item := item.parent;
    until item.parent = nil;
-end;
-
-
-procedure Tf_projet.item_quitterClick(Sender: TObject);
-begin
-  Close;
+   item := TmenuItem(Sender);
+   if item=item_liste_inscrit then choix_item_liste_inscrit;
 end;
 
 procedure Tf_projet.FormShow(Sender: TObject);

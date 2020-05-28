@@ -1,7 +1,7 @@
 object f_select_inscrit: Tf_select_inscrit
-  Left = 815
+  Left = 931
   Height = 720
-  Top = 199
+  Top = 4
   Width = 280
   ClientHeight = 720
   ClientWidth = 280
@@ -71,6 +71,7 @@ object f_select_inscrit: Tf_select_inscrit
         Align = alTop
         Caption = 'Etudiant'
         TabOrder = 0
+        OnClick = pnl_choix_btnClick
       end
       object pnl_etudiant_edit: TPanel
         Left = 1
@@ -139,6 +140,7 @@ object f_select_inscrit: Tf_select_inscrit
         Align = alTop
         Caption = 'Filière'
         TabOrder = 0
+        OnClick = pnl_choix_btnClick
       end
       object pnl_filiere_edit: TPanel
         Left = 1
@@ -168,6 +170,26 @@ object f_select_inscrit: Tf_select_inscrit
           ParentFont = False
           TabOrder = 0
         end
+      end
+    end
+    object pnl_rechercher: TPanel
+      Left = 1
+      Height = 100
+      Top = 579
+      Width = 278
+      Align = alBottom
+      ClientHeight = 100
+      ClientWidth = 278
+      TabOrder = 3
+      object btn_rechercher: TButton
+        Left = 119
+        Height = 30
+        Top = 25
+        Width = 130
+        Caption = 'Rechercher'
+        Default = True
+        OnClick = btn_rechercherClick
+        TabOrder = 0
       end
     end
   end

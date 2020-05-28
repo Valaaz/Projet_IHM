@@ -1,7 +1,7 @@
 object f_projet: Tf_projet
-  Left = 67
+  Left = 73
   Height = 700
-  Top = 222
+  Top = 272
   Width = 1200
   Caption = 'Gestion de la scolarité'
   ClientHeight = 0
